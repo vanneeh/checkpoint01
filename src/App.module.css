@@ -1,0 +1,32 @@
+.App {
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+}
+
+form {
+    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+
+ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+img{
+    width: 40px;
+}
