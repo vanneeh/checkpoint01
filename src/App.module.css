@@ -1,14 +1,15 @@
 .App {
-    width:100vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto Mono', monospace;
     color: antiquewhite;
 }
 
 h1 {
-    color: antiquewhite;
+    font-family: 'Amatic SC', cursive;
     text-align: center;
 }
 
@@ -17,16 +18,32 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
+    gap: 10px;
 }
 
-ul{
-    width: 600px;
+
+ul {
+    width: 850px;
     display: flex;
     justify-content: space-around;
     list-style: none;
+    flex-wrap: wrap;
 }
 
-img{
-    width: 40px;
+img {
+    width: 8vw;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+
+Button {
+    font-family: 'Amatic SC', cursive;
 }

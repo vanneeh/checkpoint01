@@ -1,4 +1,8 @@
-/* .cards-container{
+.cards-container {
+    width: 50px;
     margin: 50px;
     padding: 5px;
-} */
+    border: 10px #fff solid;
+    border-radius: 5px;
+}
+

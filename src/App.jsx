@@ -5,6 +5,7 @@ import Form from 'react-bootstrap/Form';
 import style from './App.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 // Aqui você irá escrever as suas funções de Validação, para verificar se o Formulário foi preenchido corretamente
 
 function App() {
@@ -171,7 +172,7 @@ function App() {
           </div>
         </form>
       </div>
-      <div className="container">
+      <div className="container d-flex justify-content-around p-2">
         {
           alunos.map((aluno, index) => {
             return (

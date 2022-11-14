@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto+Mono&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +9,6 @@
 
 :root{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
